@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  <meta charset="UTF-8">
+	  <title>Reloj Digital</title>
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	  <link rel="stylesheet" href="css/main.css">
+	</head>
+	<body>
+		<section>
+			<div class="container-fluid bg-img">
+				<div class="row">
+					<div class="paises col-md-offset-4 col-md-4 text-left">
+						<a id="cerrar" class="pull-right" href="#">X</a>
+						<h3 class="text-center">seleccione zona horaria</h3>
+						<div class="checkbox">
+						  <label><input type="checkbox" value="chicago">Chicago</label>
+						</div>
+						<div class="checkbox">
+						  <label><input type="checkbox" value="santiago">Santiago</label>
+						</div>
+						<div class="checkbox">
+						  <label><input type="checkbox" value="mexico">Mexico DF</label>
+						</div>
+						<div class="checkbox">
+						  <label><input type="checkbox" value="caracas">Caracas</label>
+						</div>
+						<div class="checkbox">
+						  <label><input type="checkbox" value="brasilia">Brasilia</label>
+						</div>
+						<div class="checkbox">
+						  <label><input type="checkbox" value="quito">Quito</label>
+						</div>
+						<div class="checkbox">
+						  <label><input type="checkbox" value="guayaquil">Guayaquil</label>
+						</div>
+						<div class="checkbox">
+						  <label><input type="checkbox" value="santamarta">Santa Marta</label>
+						</div>
+						<div class="checkbox">
+						  <label><input type="checkbox" value="bogota">Bogota</label>
+						</div>
+						
+						
+							<!-- <ul class="">
+								<li><a id="cerrar" class="pull-right" href="#">X</a></li>
+								<h3 class="text-center">seleccione zona horaria</h3>
+								<li><a class="ciudad"href="#">Chicago</a></li>
+								<li><a class="ciudad"href="#">Sao Paulo</a></li>
+								<li><a class="ciudad"href="#">Santiago</a></li>
+								<li><a class="ciudad"href="#">Mexico DF</a></li>
+								<li><a class="ciudad"href="#">Caracas</a></li>
+								<li><a class="ciudad"href="#">Brasilia</a></li>
+								<li><a class="ciudad"href="#">Quito</a></li>
+								<li><a class="ciudad"href="#">Guayaquil</a></li>
+								<li><a class="ciudad"href="#">Santa Marta</a></li>
+								<li><a class="ciudad"href="#">Bogota</a></li>
+							</ul> -->
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3 text-center">
+						<div>
+							<ul id="horalocal" class="padding">
+								<li id="hora"></li>
+								<li>:</li>
+								<li id="minutos"></li>
+								<li>:</li>
+								<li id="segundos"></li>
+							</ul>
+							<ul class="padding">
+								<li id="dia"></li>
+								<li>/</li>
+								<li id="mes"></li>
+								<li>/</li>
+								<li id="anno"></li>
+							</ul>
+						</div>
+						<button type="button" class="btn btn-success"><i class="fa fa-clock-o" aria-hidden="true"></i></button>
+					</div>
+				</div>
+				
+					<div id="cuidadesM">
+				</div>
+			</div>
+		</section>
+		<script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>

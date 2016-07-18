@@ -1,0 +1,24 @@
+body { 
+	background-image: url("../img/aurora-borealis-from-space-wallpaper-4.jpg");
+	margin: 0 auto;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: white;
+	font-weight: 600;
+	font-size: 20px;
+
+}
+.btn {margin-top: 20% ;}
+.paises{ 
+	color:black; 
+	font-size: 18px; 
+	background-color: rgba(50, 28, 54, 0.6);
+	border-radius: 25px; 
+	border: 2px solid;
+}
+
+.checkbox>label { color: #11554F;}
+label:hover,label:focus,label:active { color: #1C8C83;  }
+ul#horalocal>li{ margin-top: 20%; display: inline-block; font-size: 35px; }
+.padding { padding: 0; }
+ul.padding>li { display: inline-block; }
